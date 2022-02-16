@@ -13,6 +13,8 @@
 		4CC2961127BD76E800B59CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2960F27BD76E800B59CAB /* Main.storyboard */; };
 		4CC2961327BD76E900B59CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2961227BD76E900B59CAB /* Assets.xcassets */; };
 		4CC2961627BD76E900B59CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2961427BD76E900B59CAB /* LaunchScreen.storyboard */; };
+		4CC2961E27BD7C4D00B59CAB /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CC2961D27BD7C4D00B59CAB /* HomeTableViewHeader.xib */; };
+		4CC2962027BD8B9A00B59CAB /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC2961F27BD8B9A00B59CAB /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4CC2961227BD76E900B59CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC2961527BD76E900B59CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC2961727BD76E900B59CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC2961D27BD7C4D00B59CAB /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		4CC2961F27BD8B9A00B59CAB /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		4CC2960827BD76E800B59CAB /* AluraViagens */ = {
 			isa = PBXGroup;
 			children = (
+				4CC2962327BD8BC000B59CAB /* Models */,
+				4CC2962427BD8BC900B59CAB /* View */,
+				4CC2962227BD8BB800B59CAB /* Controllers */,
 				4CC2960927BD76E800B59CAB /* AppDelegate.swift */,
 				4CC2960B27BD76E800B59CAB /* SceneDelegate.swift */,
-				4CC2960D27BD76E800B59CAB /* ViewController.swift */,
-				4CC2960F27BD76E800B59CAB /* Main.storyboard */,
 				4CC2961227BD76E900B59CAB /* Assets.xcassets */,
 				4CC2961427BD76E900B59CAB /* LaunchScreen.storyboard */,
 				4CC2961727BD76E900B59CAB /* Info.plist */,
+				4CC2961F27BD8B9A00B59CAB /* HomeTableViewHeader.swift */,
 			);
 			path = AluraViagens;
+			sourceTree = "<group>";
+		};
+		4CC2962227BD8BB800B59CAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2960D27BD76E800B59CAB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CC2962327BD8BC000B59CAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CC2962427BD8BC900B59CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CC2960F27BD76E800B59CAB /* Main.storyboard */,
+				4CC2961D27BD7C4D00B59CAB /* HomeTableViewHeader.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC2961627BD76E900B59CAB /* LaunchScreen.storyboard in Resources */,
+				4CC2961E27BD7C4D00B59CAB /* HomeTableViewHeader.xib in Resources */,
 				4CC2961327BD76E900B59CAB /* Assets.xcassets in Resources */,
 				4CC2961127BD76E800B59CAB /* Main.storyboard in Resources */,
 			);
@@ -139,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC2960E27BD76E800B59CAB /* ViewController.swift in Sources */,
+				4CC2962027BD8B9A00B59CAB /* HomeTableViewHeader.swift in Sources */,
 				4CC2960A27BD76E800B59CAB /* AppDelegate.swift in Sources */,
 				4CC2960C27BD76E800B59CAB /* SceneDelegate.swift in Sources */,
 			);
