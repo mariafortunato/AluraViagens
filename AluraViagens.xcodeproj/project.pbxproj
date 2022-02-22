@@ -135,6 +135,7 @@
 		4CC295FD27BD76E800B59CAB = {
 			isa = PBXGroup;
 			children = (
+				4CB562FB27C501FE00C42181 /* readme.md */,
 				4CC2960827BD76E800B59CAB /* AluraViagens */,
 				4CC2960727BD76E800B59CAB /* Products */,
 			);
@@ -160,7 +161,6 @@
 				4C663CC227BEC76E00977617 /* Mock */,
 				4CC2961427BD76E900B59CAB /* LaunchScreen.storyboard */,
 				4CC2961727BD76E900B59CAB /* Info.plist */,
-				4CB562FB27C501FE00C42181 /* readme.md */,
 			);
 			path = AluraViagens;
 			sourceTree = "<group>";
